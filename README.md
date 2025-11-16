@@ -12,8 +12,9 @@ usuarios, grupos, estructuras de disrectorios, scripts y automatizacion con cron
 
 ##instalacion y configuracion
 1. Instalar ubunto server en virtualbox
-2. crear usuarios: adminsys, tecnico, visitante
-3. Crear grupos: soporte, web
+2. crear usuarios adminsys, tecnico, visitante: Para esta parte usaremos los siguientes comandos "sudo adduser adminsys"
+"sudo adduser tecnico" y "sudo adduser visitantes"
+3. Crear grupos soporte, web: "sudo groupadd soporte" es el coando utilizado para el grupo soporte, y para el grupo we se utilizo "sudo groupadd web"
 4. Asignar permisos de directorios y setgid
 5. Crear script de monitoreo /proyecto/scripts/reporte_sistema.sh
 6. Automatizar el script con cron cada 30 minutos
