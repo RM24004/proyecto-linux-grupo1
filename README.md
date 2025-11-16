@@ -45,7 +45,10 @@ usuarios, grupos, estructuras de disrectorios, scripts y automatizacion con cron
 ##Estructura del proyecto
 
 -/datos/ -> configuracion del sistema
+
 -/web/   -> archivos del sitio web
+
 -/scripts/ ->scripts de automatizacion
+
 -/capturas/ -> evidencias del proyecto
 
